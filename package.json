@@ -1,10 +1,11 @@
 {
-  "name": "react-uicons",
+  "name": "react-uicons-beta",
   "version": "1.0.0",
   "description": "React Uicons",
   "keywords": [
     "React",
     "UIcons",
+    "React UIcons",
     "SVG UICONS"
   ],
   "main": "dist/index.d.js",
