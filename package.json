@@ -1,0 +1,37 @@
+{
+  "name": "react-uicons",
+  "version": "1.0.0",
+  "description": "React Uicons",
+  "main": "index.js",
+  "keywords": [
+    "React",
+    "UIcons",
+    "SVG UICONS"
+  ],
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf renamed_assets",
+    "clone": "npm run clean && cp -r assets renamed_assets",
+    "rename": "node rename.js",
+    "svgr": "svgr -- renamed_assets",
+    "prebuild": "rimraf src && rimraf dist",
+    "build:test": "npm run clone && npm run rename && npm run svgr && npm run clean",
+    "build": "npm run build:test && rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "@babel/runtime": "^7.16.5",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@svgr/cli": "^6.1.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.61.1",
+    "rollup-plugin-filesize": "^9.1.1"
+  }
+}
