@@ -1,7 +1,6 @@
 import * as React from "react";
-import { SVGProps } from "react";
 
-function CommentsSolid(props: SVGProps<SVGSVGElement>) {
+function CommentsSolid(props: any) {
   const { size = "1em" } = props;
   return (
     <svg

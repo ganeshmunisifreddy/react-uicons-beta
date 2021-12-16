@@ -1,7 +1,6 @@
 import * as React from "react";
-import { SVGProps } from "react";
 
-function DocumentSignedSolid(props: SVGProps<SVGSVGElement>) {
+function DocumentSignedSolid(props: any) {
   const { size = "1em" } = props;
   return (
     <svg

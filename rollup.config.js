@@ -1,11 +1,16 @@
 import { babel } from "@rollup/plugin-babel";
 import filesize from "rollup-plugin-filesize";
+import peerDepsExternal from "rollup-plugin-peer-deps-external";
+import resolve from "@rollup/plugin-node-resolve";
+import typescript from "rollup-plugin-typescript2";
+const packageJson = require("./package.json");
 
 const config = {
-  input: "src/index.js",
+  input: "./src/index.tsx",
   output: {
-    file: "dist/index.esm.js",
+    file: packageJson.module,
     format: "esm",
+    sourcemap: true,
   },
   external: [/@babel\/runtime/, "react"],
   plugins: [
@@ -14,6 +19,9 @@ const config = {
       plugins: ["@babel/plugin-transform-runtime"],
     }),
     filesize(),
+    peerDepsExternal(),
+    resolve(),
+    typescript({ useTsconfigDeclarationDir: true }),
   ],
 };
 

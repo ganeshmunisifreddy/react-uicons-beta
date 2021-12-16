@@ -1,7 +1,6 @@
 import * as React from "react";
-import { SVGProps } from "react";
 
-function Apps(props: SVGProps<SVGSVGElement>) {
+function Apps(props: any) {
   const { size = "1em" } = props;
   return (
     <svg

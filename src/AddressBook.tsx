@@ -1,7 +1,6 @@
 import * as React from "react";
-import { SVGProps } from "react";
 
-function AddressBook(props: SVGProps<SVGSVGElement>) {
+function AddressBook(props: any) {
   const { size = "1em" } = props;
   return (
     <svg
