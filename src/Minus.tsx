@@ -8,6 +8,7 @@ function Minus(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <rect y={11} width={24} height={2} rx={1} />

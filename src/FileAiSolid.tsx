@@ -11,6 +11,7 @@ function FileAiSolid(props: any) {
       xmlSpace="preserve"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M130.965 181.632h29.078l-14.486-38.379z" />

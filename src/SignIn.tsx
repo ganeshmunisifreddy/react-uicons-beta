@@ -8,6 +8,7 @@ function SignIn(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M7 22H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h2a1 1 0 0 0 0-2H5a5.006 5.006 0 0 0-5 5v14a5.006 5.006 0 0 0 5 5h2a1 1 0 0 0 0-2Z" />

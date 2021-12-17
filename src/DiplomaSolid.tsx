@@ -9,6 +9,7 @@ function DiplomaSolid(props: any) {
       width={size}
       xmlns="http://www.w3.org/2000/svg"
       data-name="Layer 1"
+      fill="currentColor"
       {...props}
     >
       <path d="M18 13a3.987 3.987 0 0 0-2 7.444v2.833a.721.721 0 0 0 1.231.51l.769-.768.769.768a.721.721 0 0 0 1.231-.51v-2.833A3.987 3.987 0 0 0 18 13z" />

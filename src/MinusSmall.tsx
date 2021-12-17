@@ -8,6 +8,7 @@ function MinusSmall(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <rect x={6} y={11} width={12} height={2} rx={1} />

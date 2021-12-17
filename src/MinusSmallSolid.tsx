@@ -8,6 +8,7 @@ function MinusSmallSolid(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M7 11a1 1 0 0 0 0 2h10a1 1 0 0 0 0-2Z" />

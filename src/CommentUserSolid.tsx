@@ -11,6 +11,7 @@ function CommentUserSolid(props: any) {
       xmlSpace="preserve"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M256 169.515c17.944 0 32.491-14.547 32.491-32.491S273.944 104.533 256 104.533s-32.491 14.547-32.491 32.491 14.547 32.491 32.491 32.491z" />

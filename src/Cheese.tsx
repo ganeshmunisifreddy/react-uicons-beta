@@ -9,6 +9,7 @@ function Cheese(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M17 14a2 2 0 0 0 0 4 2 2 0 0 0 0-4ZM8 11a4 4 0 0 0 0 8 4 4 0 0 0 0-8Zm0 6a2 2 0 0 1 0-4 2 2 0 0 1 0 4Z" />

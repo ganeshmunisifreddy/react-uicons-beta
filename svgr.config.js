@@ -5,6 +5,7 @@ module.exports = {
   svgProps: {
     width: "{ size }",
     height: "{ size }",
+    fill: "currentColor",
   },
   outDir: "src",
   template: require("./template"),

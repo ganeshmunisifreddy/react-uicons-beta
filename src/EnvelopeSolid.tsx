@@ -8,6 +8,7 @@ function EnvelopeSolid(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="m23.954 5.542-8.418 8.418a5.007 5.007 0 0 1-7.072 0L.046 5.542C.032 5.7 0 5.843 0 6v12a5.006 5.006 0 0 0 5 5h14a5.006 5.006 0 0 0 5-5V6c0-.157-.032-.3-.046-.458Z" />

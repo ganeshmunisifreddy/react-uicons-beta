@@ -8,6 +8,7 @@ function RecSolid(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <circle cx={12} cy={12} r={12} />

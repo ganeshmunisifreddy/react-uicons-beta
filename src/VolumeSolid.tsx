@@ -8,6 +8,7 @@ function VolumeSolid(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M20.8 4.293a1 1 0 0 0-1.41 1.414 8.911 8.911 0 0 1 0 12.586 1 1 0 1 0 1.41 1.414 10.911 10.911 0 0 0 0-15.414Z" />

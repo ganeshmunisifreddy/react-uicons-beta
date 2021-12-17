@@ -11,6 +11,7 @@ function CookieSolid(props: any) {
       xmlSpace="preserve"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <circle cx={394.667} cy={32} r={32} />

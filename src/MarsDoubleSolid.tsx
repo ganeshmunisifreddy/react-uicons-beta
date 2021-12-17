@@ -9,6 +9,7 @@ function MarsDoubleSolid(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M14 11a6.953 6.953 0 0 0-1.4-4.184l3.4-3.4V5a1 1 0 0 0 2 0V2a2 2 0 0 0-2-2h-3a1 1 0 0 0 0 2h1.586l-3.4 3.4A6.991 6.991 0 1 0 14 11Z" />

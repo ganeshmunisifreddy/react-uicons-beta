@@ -12,6 +12,7 @@ function FollowingSolid(props: any) {
       xmlSpace="preserve"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <circle cx={192} cy={128.024} r={128} />

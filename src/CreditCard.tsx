@@ -8,6 +8,7 @@ function CreditCard(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <circle cx={5.5} cy={15.5} r={1.5} />

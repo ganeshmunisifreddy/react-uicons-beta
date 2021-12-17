@@ -8,6 +8,7 @@ function TextCheckSolid(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M11.107 14.447a1 1 0 1 0 1.789-.894l-5.5-11a1 1 0 0 0-1.789 0l-5.5 11a1 1 0 1 0 1.789.894L3.619 11h5.764ZM4.619 9 6.5 5.236 8.383 9Z" />

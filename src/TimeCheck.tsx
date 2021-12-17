@@ -9,6 +9,7 @@ function TimeCheck(props: any) {
       width={size}
       xmlns="http://www.w3.org/2000/svg"
       data-name="Layer 1"
+      fill="currentColor"
       {...props}
     >
       <path d="M23.707 16.325a1 1 0 0 0-1.414 0l-5.627 5.628-2.688-2.653a1 1 0 0 0-1.435 1.4l2.744 2.7a1.876 1.876 0 0 0 1.345.6h.033A1.873 1.873 0 0 0 18 23.447l5.707-5.708a1 1 0 0 0 0-1.414z" />

@@ -9,6 +9,7 @@ function SphereSolid(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M12 6c6.841 0 12 2.579 12 6a12 12 0 0 0-24 0c0-3.421 5.159-6 12-6Z" />

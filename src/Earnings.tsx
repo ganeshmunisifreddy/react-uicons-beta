@@ -8,6 +8,7 @@ function Earnings(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M19 0h-5a1 1 0 0 0 0 2h5a2.951 2.951 0 0 1 1.285.3L.293 22.293a1 1 0 1 0 1.414 1.414L21.7 3.715A2.951 2.951 0 0 1 22 5v5a1 1 0 0 0 2 0V5a5.006 5.006 0 0 0-5-5Z" />

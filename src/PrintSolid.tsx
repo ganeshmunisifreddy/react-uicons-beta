@@ -8,6 +8,7 @@ function PrintSolid(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M19 4a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v1h14Z" />

@@ -8,6 +8,7 @@ function EditSolid(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M18 19v4.7a4.968 4.968 0 0 0 1.879-1.164l2.656-2.658A4.954 4.954 0 0 0 23.7 18H19a1 1 0 0 0-1 1ZM7.172 13.828A4 4 0 0 0 6 16.657V18h1.343a4 4 0 0 0 2.829-1.172L21.5 5.5a2.121 2.121 0 0 0-3-3Z" />

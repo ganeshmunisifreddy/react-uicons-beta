@@ -8,6 +8,7 @@ function AngleDoubleLeftSolid(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M12 24a1.493 1.493 0 0 1-1.06-.439l-7.676-7.672a5.5 5.5 0 0 1 0-7.778L10.936.439a1.5 1.5 0 1 1 2.121 2.122l-7.672 7.671a2.5 2.5 0 0 0 0 3.536l7.672 7.671A1.5 1.5 0 0 1 12 24Z" />

@@ -9,6 +9,7 @@ function GasPumpSolid(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M6 9h4a2 2 0 0 0-4 0Z" />

@@ -8,6 +8,7 @@ function TimeCheckSolid(props: any) {
       viewBox="0 0 24 24"
       width={size}
       xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
       {...props}
     >
       <path d="M18.951 23h-.033a1.872 1.872 0 0 1-1.344-.6l-1.918-1.881a1 1 0 0 1 .022-1.414l.003-.003a1 1 0 0 1 1.41.024l1.861 1.823 3.341-3.341a1 1 0 0 1 1.414 1.414l-3.421 3.421a1.87 1.87 0 0 1-1.335.557z" />

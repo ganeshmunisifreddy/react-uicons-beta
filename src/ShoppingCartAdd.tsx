@@ -8,6 +8,7 @@ function ShoppingCartAdd(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <circle cx={7} cy={22} r={2} />

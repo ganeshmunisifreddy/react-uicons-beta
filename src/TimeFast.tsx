@@ -9,6 +9,7 @@ function TimeFast(props: any) {
       width={size}
       xmlns="http://www.w3.org/2000/svg"
       data-name="Layer 1"
+      fill="currentColor"
       {...props}
     >
       <path d="M9 24H1a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2zM7 20H1a1 1 0 0 1 0-2h6a1 1 0 0 1 0 2zM5 16H1a1 1 0 0 1 0-2h4a1 1 0 0 1 0 2z" />

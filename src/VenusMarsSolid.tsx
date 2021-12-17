@@ -9,6 +9,7 @@ function VenusMarsSolid(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M10 19H8v-2.317a8.961 8.961 0 0 1 .214-13.566A7.014 7.014 0 0 0 7 3a7 7 0 0 0-1 13.92V19H4a1 1 0 0 0 0 2h2v2a1 1 0 0 0 2 0v-2h2a1 1 0 0 0 0-2Z" />

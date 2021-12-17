@@ -8,6 +8,7 @@ function PortraitSolid(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M19 0H5a5.006 5.006 0 0 0-5 5v14a5.006 5.006 0 0 0 5 5v-3a7 7 0 0 1 14 0v3a5.006 5.006 0 0 0 5-5V5a5.006 5.006 0 0 0-5-5Zm-7 12a4 4 0 1 1 4-4 4 4 0 0 1-4 4Z" />

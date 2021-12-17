@@ -8,6 +8,7 @@ function ModeLandscapeSolid(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <circle cx={16} cy={8.011} r={2.5} />

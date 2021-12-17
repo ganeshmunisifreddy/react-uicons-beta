@@ -9,6 +9,7 @@ function TimeForwardTenSolid(props: any) {
       width={size}
       xmlns="http://www.w3.org/2000/svg"
       data-name="Layer 1"
+      fill="currentColor"
       {...props}
     >
       <path d="M21 15a3 3 0 0 0-3 3v3a3 3 0 0 0 6 0v-3a3 3 0 0 0-3-3zm1 6a1 1 0 0 1-2 0v-3a1 1 0 0 1 2 0zM13 12V7a1 1 0 0 0-2 0v4H8a1 1 0 0 0 0 2h4a1 1 0 0 0 1-1z" />

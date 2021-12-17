@@ -11,6 +11,7 @@ function MenuDotsVerticalSolid(props: any) {
       xmlSpace="preserve"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <circle cx={256} cy={42.667} r={42.667} />

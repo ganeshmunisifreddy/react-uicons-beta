@@ -9,6 +9,7 @@ function ChartPieSolid(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M12.3 10.178a4.989 4.989 0 0 0 .363.671l10.862-2.161A11.962 11.962 0 0 0 8.216.621Z" />

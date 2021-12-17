@@ -8,6 +8,7 @@ function Cookie(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <circle cx={9.5} cy={9.5} r={1.5} />

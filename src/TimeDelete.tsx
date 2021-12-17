@@ -9,6 +9,7 @@ function TimeDelete(props: any) {
       width={size}
       xmlns="http://www.w3.org/2000/svg"
       data-name="Layer 1"
+      fill="currentColor"
       {...props}
     >
       <path d="M23.707 15.293a1 1 0 0 0-1.414 0L19.5 18.086l-2.793-2.793a1 1 0 0 0-1.414 1.414l2.793 2.793-2.793 2.793a1 1 0 1 0 1.414 1.414l2.793-2.793 2.793 2.793a1 1 0 0 0 1.414-1.414L20.914 19.5l2.793-2.793a1 1 0 0 0 0-1.414z" />

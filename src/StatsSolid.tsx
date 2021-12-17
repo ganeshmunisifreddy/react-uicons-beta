@@ -8,6 +8,7 @@ function StatsSolid(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M5.5 21A2.5 2.5 0 0 1 3 18.5v-17A1.5 1.5 0 0 0 1.5 0 1.5 1.5 0 0 0 0 1.5v17A5.5 5.5 0 0 0 5.5 24h17a1.5 1.5 0 0 0 1.5-1.5 1.5 1.5 0 0 0-1.5-1.5Z" />

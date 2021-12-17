@@ -8,6 +8,7 @@ function Box(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M9 14h6a1 1 0 0 0 0-2H9a1 1 0 0 0 0 2Z" />

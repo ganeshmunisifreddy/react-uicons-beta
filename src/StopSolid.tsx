@@ -11,6 +11,7 @@ function StopSolid(props: any) {
       xmlSpace="preserve"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M106.667 0h298.667C464.244 0 512 47.756 512 106.667v298.667C512 464.244 464.244 512 405.333 512H106.667C47.756 512 0 464.244 0 405.333V106.667C0 47.756 47.756 0 106.667 0z" />

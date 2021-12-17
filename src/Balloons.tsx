@@ -9,6 +9,7 @@ function Balloons(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M18.848 11.53A7.674 7.674 0 0 0 19.977 8a1 1 0 0 0-2 0 5.712 5.712 0 0 1-.825 2.47 1 1 0 0 0 1.7 1.06ZM8.977 7a1 1 0 0 0-1 1 5.712 5.712 0 0 1-.825 2.47 1 1 0 0 0 1.7 1.06A7.674 7.674 0 0 0 9.977 8a1 1 0 0 0-1-1Z" />

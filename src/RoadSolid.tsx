@@ -9,6 +9,7 @@ function RoadSolid(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="m23.924 18.134-2.464-14A4.992 4.992 0 0 0 16.536 0H7.451a4.992 4.992 0 0 0-4.926 4.138l-2.449 14A5 5 0 0 0 5 24h14a5 5 0 0 0 4.925-5.866ZM13 20a1 1 0 0 1-2 0v-2a1 1 0 0 1 2 0Zm0-7a1 1 0 0 1-2 0v-2a1 1 0 0 1 2 0Zm0-7a1 1 0 0 1-2 0V4a1 1 0 0 1 2 0Z" />

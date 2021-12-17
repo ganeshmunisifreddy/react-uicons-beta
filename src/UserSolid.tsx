@@ -11,6 +11,7 @@ function UserSolid(props: any) {
       xmlSpace="preserve"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <circle cx={256} cy={128} r={128} />

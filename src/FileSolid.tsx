@@ -11,6 +11,7 @@ function FileSolid(props: any) {
       xmlSpace="preserve"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M320 170.667h139.52a148.346 148.346 0 0 0-33.941-52.565l-74.325-74.368a148.836 148.836 0 0 0-52.587-33.92v139.52c0 11.781 9.551 21.333 21.333 21.333z" />

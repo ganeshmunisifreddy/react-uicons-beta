@@ -9,6 +9,7 @@ function HomeLocationAltSolid(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M16.243 10.764a6 6 0 0 0-8.486 8.485l3.507 3.43a1.053 1.053 0 0 0 1.472 0l3.507-3.43a6 6 0 0 0 0-8.485ZM12 16.994a2 2 0 1 1 2-2 2 2 0 0 1-2 2Z" />

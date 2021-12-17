@@ -8,6 +8,7 @@ function EditAlt(props: any) {
       viewBox="0 0 24 24"
       width={size}
       height={size}
+      fill="currentColor"
       {...props}
     >
       <path d="M9.288 13.067c-2.317.446-3.465 3.026-3.963 4.634A1 1 0 0 0 6.281 19H10a3 3 0 0 0 2.988-3.274 3.107 3.107 0 0 0-3.7-2.659Z" />
