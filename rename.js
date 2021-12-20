@@ -1,14 +1,14 @@
 const { readdirSync, rename } = require("fs");
 const { resolve, basename, extname } = require("path");
 
-const assetsDirPath = resolve(__dirname, "renamed_assets");
+const assetsDirPath = resolve(__dirname, "renamed_assets/solid");
 
 const files = readdirSync(assetsDirPath);
 
 const generateNewName = (name) => {
-  if (name.includes("fi-rr-")) {
-    return name.replace("fi-rr-", "");
-  }
+  // if (name.includes("fi-rr-")) {
+  //   return name.replace("fi-rr-", "");
+  // }
   if (name.includes("fi-sr-")) {
     return name.replace("fi-sr-", "") + "-solid";
   }

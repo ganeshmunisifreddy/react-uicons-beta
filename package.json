@@ -1,6 +1,6 @@
 {
   "name": "react-uicons-beta",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "description": "React Uicons",
   "keywords": [
     "React",
@@ -18,10 +18,11 @@
     "clean": "rimraf renamed_assets",
     "clone": "npm run clean && cp -r assets renamed_assets",
     "rename": "node rename.js",
-    "svgr": "svgr -- renamed_assets",
+    "svgr": "svgr -- renamed_assets/solid",
     "prebuild": "rimraf src && rimraf dist",
     "build:test": "npm run clone && npm run rename && npm run svgr && npm run clean",
-    "build": "npm run build:test && rollup -c"
+    "build": "npm run build:test && rollup -c",
+    "build:beta": "rollup -c"
   },
   "author": "",
   "license": "ISC",

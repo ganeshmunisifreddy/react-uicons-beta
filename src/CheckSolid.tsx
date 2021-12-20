@@ -5,7 +5,7 @@ function CheckSolid(props: any) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 465.822 465.822"
+      viewBox="0 0 512 512"
       style={{
         enableBackground: "new 0 0 465.822 465.822",
       }}

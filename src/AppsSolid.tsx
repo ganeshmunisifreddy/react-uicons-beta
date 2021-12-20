@@ -11,6 +11,7 @@ function AppsSolid(props: any) {
       xmlSpace="preserve"
       width={size}
       height={size}
+      viewBox="0 0 512 512"
       fill="currentColor"
       {...props}
     >

@@ -5,7 +5,7 @@ function UploadSolid(props: any) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 512.008 512.008"
+      viewBox="0 0 512 512"
       style={{
         enableBackground: "new 0 0 512.008 512.008",
       }}

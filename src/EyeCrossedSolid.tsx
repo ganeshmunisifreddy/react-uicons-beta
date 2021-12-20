@@ -5,7 +5,7 @@ function EyeCrossedSolid(props: any) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 512.19 512.19"
+      viewBox="0 0 512 512"
       style={{
         enableBackground: "new 0 0 512.19 512.19",
       }}

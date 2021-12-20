@@ -11,6 +11,7 @@ function FilePsd(props: any) {
       xmlSpace="preserve"
       width={size}
       height={size}
+      viewBox="0 0 24 24"
       fill="currentColor"
       {...props}
     >

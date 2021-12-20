@@ -5,7 +5,7 @@ function BroomSolid(props: any) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 500.696 500.696"
+      viewBox="0 0 512 512"
       style={{
         enableBackground: "new 0 0 500.696 500.696",
       }}
